@@ -2,7 +2,7 @@ import "dart:async";
 
 void main(List<String> arguments) async {
   Future<String> apiData() async {
-    Future.delayed(Duration(seconds: 2));
+    await Future.delayed(Duration(seconds: 2));
     return "Hello World";
   }
 
